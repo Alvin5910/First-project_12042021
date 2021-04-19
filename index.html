@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+  <meta charset="utf-8">
+  <title>Home Page</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+</html>
+
+
+<html>
+<head>
+<body>
+    <style>
+    h1 {color:pink;}
+    h2 {color: red;}
+    h3 {color:black;}
+    p {color:blue;}
+    </style>
+
+  </html>
+  <script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "9d698065-f1c5-44bf-8f69-35bfef1099cb", // The ID of this integration.
+      region: "us-south", // The region your integration is hosted in.
+      serviceInstanceID: "a316b904-54a7-44de-a893-b34931c28fa7", // The ID of your service instance.
+      onLoad: function (instance) { instance.render(); }
+    };
+    setTimeout(function () {
+      const t = document.createElement('script');
+      t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+      document.head.appendChild(t);
+    });
+  </script>
+
+  <html>
+    <head>
+    <style>
+    .button {
+      background-color: #4CAF50;font-size: 20px 20px;/* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    .button {background-color: green;font-size: 10px 20px;border-radius: 50%;} /* Green */
+    .button:hover {background-color:black;color: white;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)}
+    .button2 {background-color: #008CBA;font-size: 10px 20px;border-radius: 50%;} /* Blue */
+    .button2:hover {background-color:black;color: white;}
+    .button3 {background-color:pink;font-size: 12px 20px;border-radius: 30px;} /* Red */
+    .button3:hover {background-color:black;color: white;}
+    .button4 {background-color: red;font-size: 20px 20px;border-radius: 50px;} /* Gray */ 
+    .button4:hover {background-color:black;color: white;}
+    .button5 {background-color: #555555;font-size: 20px 20px;border-radius: 90%;} /* Black */
+    .button5:hover {background-color:black;color: white;}
+    </style>
+    </head>
+    <body>
+    
+    <h2>Create Color buttons</h2>
+    <p>Change the background color of a button with the background-color property:</p>
+    
+    <button class="button">Green</button>
+    <button class="button button2">Blue</button>
+    <button class="button button3">Red</button>
+    <button class="button button4">Dark Red</button>
+    <button class="button button5">Dark Gray</button>
+    
+    </body>
+    </html>
+
+  <html>
+  <head>
+  <body>
+  <h2>Create text and padding</h2>
+  <h1 style="background-color:rgba(255, 255, 255, 0);">Hello everyone! </h1>
+  </head>
+  <body>
+  <style>
+  
+  span {background-color: yellow;}
+  span.ex1 {
+    min-width: 500px;
+    display: inline-block;}
+</style>
+</head>
+<body>
+  <h2 style="border:5px solid Tomato;">Hello! People</h2>
+  </head>
+  <body>
+   
+  <h3>Welcome!</h3>
+  <p>This content is served to you by....</p>
+  <h2>The server</h2>
+  
+  <a href="https://github.com/Alvin5910" target="_blank">My GitHub</a>
+  <img src="../static/ubt.jpg" alt="UBT">
+  <img src="../static/transform.jpg" alt="T1" width="300" height="200">>
+  <p> <img src="../static/phone.jpg" alt="T1" width="200" height="300">></p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Fb_fVNT3aDo" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+    <style>
+      .pagination {
+        display: inline-block;
+      }
+      
+      .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+      }
+      
+      .pagination a.active {
+        background-color: #4CAF50;
+        color: white;
+      }
+      
+      .pagination a:hover:not(.active) {background-color: #ddd;}
+      </style>
+      </head>
+      <body>
+      
+      <h3>Create transition Effect on Hover;</h3>
+      <p>Move the mouse over the numbers.</p>
+      
+      <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a href="#" class="active">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">&raquo;</a>
+      </div>
+      
+      <style>
+        ul.breadcrumb {
+          padding: 8px 16px;
+          list-style: none;
+          background-color: #eee;
+        }
+        
+        ul.breadcrumb li {display: inline;}
+        
+        ul.breadcrumb li+li:before {
+          padding: 8px;
+          color: black;
+          content: "/\00a0";
+        }
+        
+        ul.breadcrumb li a {color: green;}
+        </style>
+        </head>
+        <body>
+        
+        <h2>Create Breadcrumb Pagination</h2>
+        <ul class="breadcrumb">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Video</a></li>
+          <li><a href="#">batch3</a></li>
+          <li><a href="https://github.com/Alvin5910" target="_blank">My GitHub</a>
+        </ul>
+        <html>
+          <body>
+          
+          <h2>Using object-fit</h2>
+          <p>Here we use "object-fit: cover;", so when we resize the browser window, the aspect ratio of the images is preserved:</p>
+          
+          <div style="width:100%;height:400px;">
+            <img src="../static/phone.jpg" alt="Robot phone" style="float:left;width:50%;height:100%;object-fit:cover;">
+            <img src="../static/transform.jpg" alt="Robot phone app" style="float:left;width:50%;height:100%;object-fit:cover;">
+          </div>
+        </body>
+        </html>
+       
+    
+    
